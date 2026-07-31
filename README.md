@@ -8,11 +8,11 @@
 
 <br><br>
 
-[![Follow](https://img.shields.io/github/followers/rushijagani-dev?style=flat-square&logo=github&label=Follow&labelColor=0B1220&color=2EA043)](https://github.com/rushijagani-dev?tab=followers)
+[![Follow](https://img.shields.io/github/followers/rushijagani-dev?style=flat-square&logo=github&label=Follow&labelColor=0B1220&color=116329)](https://github.com/rushijagani-dev?tab=followers)
 &nbsp;
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-rushijagani-2EA043?style=flat-square&logo=linkedin&logoColor=white&labelColor=0B1220)](https://www.linkedin.com/in/rushijagani/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-rushijagani-116329?style=flat-square&logo=linkedin&logoColor=white&labelColor=0B1220)](https://www.linkedin.com/in/rushijagani/)
 &nbsp;
-[![Email](https://img.shields.io/badge/Email-rushi.jagani.dev@gmail.com-2EA043?style=flat-square&logo=gmail&logoColor=white&labelColor=0B1220)](mailto:rushi.jagani.dev@gmail.com)
+[![Email](https://img.shields.io/badge/Email-rushi.jagani.dev@gmail.com-116329?style=flat-square&logo=gmail&logoColor=white&labelColor=0B1220)](mailto:rushi.jagani.dev@gmail.com)
 
 </div>
 
