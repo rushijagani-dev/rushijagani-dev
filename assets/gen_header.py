@@ -45,7 +45,7 @@ def build(theme_name, preview_head=None):
     out.append(
         f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {WIDTH} {HEIGHT}" '
         f'width="{WIDTH}" height="{HEIGHT}" role="img" '
-        'aria-label="Rushi Jagani, senior engineer working on AI agents, '
+        'aria-label="Rushi Jagani, AI engineer and front-end native, '
         'building agents that delete manual work">'
     )
     out.append("  <defs>")
@@ -70,7 +70,7 @@ def build(theme_name, preview_head=None):
 
     mono = "ui-monospace,Menlo,Consolas,monospace"
     sans = "system-ui,-apple-system,Helvetica,Arial,sans-serif"
-    out.append(f'  <text x="64" y="92" font-family="{mono}" font-size="15" letter-spacing="4" fill="{t["accent"]}">SENIOR ENGINEER  ·  AI AGENTS</text>')
+    out.append(f'  <text x="64" y="92" font-family="{mono}" font-size="15" letter-spacing="4" fill="{t["accent"]}">AI ENGINEER, FRONT-END NATIVE</text>')
     out.append(f'  <text x="64" y="162" font-family="{sans}" font-size="68" font-weight="700" letter-spacing="-1.4" fill="{t["name"]}">Rushi Jagani</text>')
     out.append('  <rect x="64" y="188" width="180" height="3" fill="url(#rule)"/>')
     out.append(f'  <text x="64" y="226" font-family="{sans}" font-size="22" fill="{t["tagline"]}">Building agents that delete manual work.</text>')
