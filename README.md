@@ -78,9 +78,9 @@ Front-end for a real-time management console built on React and TypeScript — l
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts,js,react,nextjs,html,css,tailwind,nodejs,python,postgres&theme=dark">
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=ts,js,react,nextjs,html,css,tailwind,nodejs,python,postgres&theme=light">
-  <img alt="TypeScript, JavaScript, React, Next.js, HTML, CSS, Tailwind, Node.js, Python, PostgreSQL" src="https://skillicons.dev/icons?i=ts,js,react,nextjs,html,css,tailwind,nodejs,python,postgres&theme=dark">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rushijagani-dev/rushijagani-dev/main/assets/stack-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rushijagani-dev/rushijagani-dev/main/assets/stack-light.svg">
+  <img alt="TypeScript, JavaScript, React, Next.js, HTML5, CSS, Tailwind CSS, Material UI, Vite, Node.js, Python, PostgreSQL, Git, GitHub Actions, Prettier, Vercel, Ollama" src="https://raw.githubusercontent.com/rushijagani-dev/rushijagani-dev/main/assets/stack-dark.svg" width="580">
 </picture>
 
 </div>
@@ -113,6 +113,26 @@ Front-end for a real-time management console built on React and TypeScript — l
 
 <br>
 
+## Snake
+
+Something has been eating my contribution graph.
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rushijagani-dev/rushijagani-dev/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rushijagani-dev/rushijagani-dev/output/github-snake.svg">
+  <img alt="A snake eating the squares of my GitHub contribution graph" src="https://raw.githubusercontent.com/rushijagani-dev/rushijagani-dev/output/github-snake-dark.svg">
+</picture>
+
+<br><br>
+
+[**▶&nbsp; Play it**](https://rushijagani-dev.github.io/rushijagani-dev/) &nbsp;—&nbsp; <sub>real Snake, on a contribution grid</sub>
+
+</div>
+
+<br>
+
 ---
 
 <div align="center">
@@ -122,5 +142,9 @@ Front-end for a real-time management console built on React and TypeScript — l
 <br><br>
 
 [**LinkedIn**](https://www.linkedin.com/in/rushijagani/) &nbsp;·&nbsp; [**Email**](mailto:rushi.jagani.dev@gmail.com)
+
+<br>
+
+<sub>Brand marks from <a href="https://simpleicons.org">Simple Icons</a> (CC0-1.0) · contribution snake by <a href="https://github.com/Platane/snk">Platane/snk</a> (MIT) · stat cards by <a href="https://github.com/anuraghazra/github-readme-stats">github-readme-stats</a> (MIT). Logos are trademarks of their respective owners.</sub>
 
 </div>
