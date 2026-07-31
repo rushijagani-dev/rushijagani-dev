@@ -1,102 +1,57 @@
-<div align="center">
+![Rushi Jagani](https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:22C55E&height=180&section=header&text=Rushi%20Jagani&fontSize=48&fontColor=FFFFFF&fontAlignY=38&desc=Senior%20front-end%20engineer%20%C2%B7%20building%20agents%20that%20delete%20manual%20work&descAlignY=58&descSize=15&animation=fadeIn)
 
-<img
-  src="https://capsule-render.vercel.app/api?type=waving&color=0:0EA5E9,45:22C55E,100:F97316&height=210&section=header&text=Rushi%20Jagani&fontSize=56&fontAlignY=36&desc=Open-source%20contributor%20building%20with%20React,%20Python,%20TypeScript,%20JavaScript,%20CSS,%20and%20HTML&descAlignY=58&animation=fadeIn"
-  alt="Rushi Jagani profile banner"
-/>
+[![Followers](https://img.shields.io/github/followers/rushijagani-dev?style=flat-square&logo=github&label=Follow&color=22C55E)](https://github.com/rushijagani-dev?tab=followers) [![LinkedIn](https://img.shields.io/badge/LinkedIn-rushijagani-22C55E?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rushijagani/) [![Email](https://img.shields.io/badge/Email-rushi.jagani.dev@gmail.com-22C55E?style=flat-square&logo=gmail&logoColor=white)](mailto:rushi.jagani.dev@gmail.com)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1200&color=22C55E&center=true&vCenter=true&width=820&lines=Shipping+small,+useful+open-source+fixes;Reading+the+issue,+the+docs,+and+the+tests;Building+clean+web+experiences+with+modern+tooling)](https://git.io/typing-svg)
+---
 
-[![GitHub followers](https://img.shields.io/github/followers/rushijagani-dev?style=for-the-badge&logo=github&label=Follow&color=0EA5E9)](https://github.com/rushijagani-dev?tab=followers)
-[![Profile views](https://komarev.com/ghpvc/?username=rushijagani-dev&style=for-the-badge&color=22c55e)](https://github.com/rushijagani-dev)
-[![Email](https://img.shields.io/badge/Email-rushi.jagani.dev%40gmail.com-F97316?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rushi.jagani.dev@gmail.com)
+Senior front-end engineer, 12 years in. React and TypeScript by trade. These days I spend most of my building energy on agents — the ones that quietly delete work nobody should be doing by hand.
 
-</div>
+> **If I do something manually twice and it has a shape to it, it should be an agent the third time.**
 
-## About
+Not chatbots. Not demos. Things that run, touch real systems, and produce output I'd have otherwise produced myself: driving a browser through real flows, keeping docs honest as the UI moves underneath them, translating and validating structured files, grinding through the tedious middle of a task while I look at the parts that actually need judgment.
 
-I am Rushi Jagani, a developer focused on thoughtful open-source contributions and practical web engineering. I like issues with a clear reproduction, a real user impact, and a fix that can be explained through tests.
+Some of it is work. A lot of it is personal — the errands of being a developer and a person, automated one at a time. Most of it lives in private repos or on my own machine, so this profile is a poor map of what I actually do.
 
-<details open>
-<summary><b>What I am focused on right now</b></summary>
+## Open source
 
-| Area | What I care about |
-| --- | --- |
-| Open source | Reproducing bugs, reading project docs, making small fixes, and validating the result |
-| Frontend | React, TypeScript, JavaScript, CSS, HTML, UI behavior, and build tooling |
-| Python | Algorithms, tests, validation, and maintainable implementation details |
-| Developer tools | Clear docs, reliable test coverage, and CI-friendly changes |
+One focused pull request at a time, in whatever ecosystem the issue lives in — not just JS/TS. Bug fixes, missing or flaky tests, dev tooling and CI, and documentation that describes real behavior.
 
-</details>
-
-## Tech Stack
-
-<div align="center">
-
-[![My Skills](https://skillicons.dev/icons?i=react,python,ts,js,html,css,nodejs,git,github,vscode&theme=dark)](https://skillicons.dev)
-
-</div>
-
-## Recent Open-Source Work
-
-<details open>
-<summary><b>Pull requests and fixes</b></summary>
+Smallest credible change, a test that fails before and passes after, and a validation section listing commands I ran rather than commands I assumed.
 
 | Project | Area | Pull request |
 | --- | --- | --- |
-| Vite | CSS chunk dependency mapping | [vitejs/vite#23120](https://github.com/vitejs/vite/pull/23120) |
-| Material UI | Drawer documentation clarity | [mui/material-ui#48887](https://github.com/mui/material-ui/pull/48887) |
-| Prettier | YAML formatting behavior | [prettier/prettier#19758](https://github.com/prettier/prettier/pull/19758) |
-| TheAlgorithms/Python | Butterworth filter validation | [TheAlgorithms/Python#14979](https://github.com/TheAlgorithms/Python/pull/14979) |
+| **Vite** | CSS chunk dependency mapping | [vitejs/vite#23120](https://github.com/vitejs/vite/pull/23120) |
+| **Material UI** | Drawer documentation clarity | [mui/material-ui#48887](https://github.com/mui/material-ui/pull/48887) |
+| **Prettier** | YAML formatting behavior | [prettier/prettier#19758](https://github.com/prettier/prettier/pull/19758) |
+| **TheAlgorithms/Python** | Butterworth filter validation | [TheAlgorithms/Python#14979](https://github.com/TheAlgorithms/Python/pull/14979) |
 
-</details>
+## Learning in public (and in private)
 
-## Contribution Style
+I learn agents by building progressively harder ones rather than reading about them. TypeScript for implementation, local models where they'll do, frontier models where they won't. The parts I keep circling back to:
 
-<details>
-<summary><b>How I approach a fix</b></summary>
+| Focus | Why it holds my attention |
+| --- | --- |
+| **Context engineering** | Most agent failures are context failures wearing a costume |
+| **Coding agents** | How far the loop goes before a human has to step in |
+| **Autonomy and its guardrails** | Scope gates, abort conditions, and validation you actually ran — an agent that reports success it didn't earn is worse than no agent |
+| **Debugging agents** | Still meaningfully harder than debugging anything else we write |
 
-1. Read the full issue thread and maintainer guidance.
-2. Check the contributing guide, tests, package scripts, and recent merged PRs.
-3. Reproduce the behavior before changing code when possible.
-4. Keep the patch focused and avoid unrelated formatting.
-5. Add or update tests when the project has a harness for the area.
-6. Record the exact validation commands and their results.
+## Day job
 
-</details>
+Front-end for a real-time management console built on React and TypeScript — large data surfaces, a design system to keep honest, and performance budgets that actually bite.
 
-<details>
-<summary><b>Issues I like working on</b></summary>
+## Tools of the trade
 
-- Bug fixes with a clear reproduction.
-- Missing or flaky tests with a defined expected result.
-- Documentation that explains real behavior, setup, APIs, or errors.
-- Developer tooling improvements that reduce friction for contributors.
+[![Stack](https://skillicons.dev/icons?i=ts,js,react,nextjs,html,css,tailwind,nodejs,python,postgres&theme=dark)](https://skillicons.dev)
 
-</details>
+**Agent side:** `Playwright` · `Vercel AI SDK` · `Ollama` · local models where they'll do, frontier models where they won't
 
-## GitHub Activity
+## Activity
 
-<div align="center">
+![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=rushijagani-dev&layout=compact&hide_border=true&theme=transparent&title_color=22C55E&langs_count=8)
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=rushijagani-dev&show_icons=true&theme=transparent&hide_border=true&rank_icon=github&include_all_commits=true" alt="Rushi Jagani GitHub stats" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rushijagani-dev&layout=compact&theme=transparent&hide_border=true" alt="Rushi Jagani top languages" />
+![Contribution activity](https://github-readme-activity-graph.vercel.app/graph?username=rushijagani-dev&hide_border=true&area=true&bg_color=00000000&color=22C55E&line=22C55E&point=0F172A)
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=rushijagani-dev&theme=react-dark&hide_border=true&area=true" alt="Rushi Jagani contribution activity graph" />
+---
 
-</div>
-
-## Connect
-
-<div align="center">
-
-[![GitHub](https://img.shields.io/badge/GitHub-rushijagani--dev-181717?style=for-the-badge&logo=github)](https://github.com/rushijagani-dev)
-[![Email](https://img.shields.io/badge/Email-rushi.jagani.dev%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rushi.jagani.dev@gmail.com)
-
-</div>
-
-<div align="center">
-
-<sub>Small fixes, carefully validated.</sub>
-
-</div>
+📫 [**LinkedIn**](https://www.linkedin.com/in/rushijagani/) — happy to talk front-end architecture, agents, or open source.
