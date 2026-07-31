@@ -9,49 +9,136 @@
       <stop offset="1" stop-color="#FFFFFF" stop-opacity="1"/>
     </radialGradient>
     <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#B45309"/>
-      <stop offset="1" stop-color="#B45309" stop-opacity="0"/>
+      <stop offset="0" stop-color="#1A7F37"/>
+      <stop offset="1" stop-color="#1A7F37" stop-opacity="0"/>
     </linearGradient>
   </defs>
 
   <rect width="1200" height="320" fill="#FFFFFF"/>
-  <rect width="1200" height="320" fill="url(#grid)" opacity=".85"/>
+  <rect width="1200" height="320" fill="url(#grid)" opacity=".5"/>
   <rect width="1200" height="320" fill="url(#vig)"/>
 
-  <text x="80" y="112" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="11" letter-spacing="3.2" fill="#B45309">SENIOR FRONT-END ENGINEER</text>
+  <text x="80" y="112" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="11" letter-spacing="3.2" fill="#1A7F37">SENIOR FRONT-END ENGINEER</text>
   <text x="80" y="178" font-family="system-ui,-apple-system,Helvetica,Arial,sans-serif" font-size="56" font-weight="700" letter-spacing="-1" fill="#0B1220">Rushi Jagani</text>
   <rect x="80" y="202" width="160" height="2" fill="url(#rule)"/>
   <text x="80" y="240" font-family="system-ui,-apple-system,Helvetica,Arial,sans-serif" font-size="18" fill="#475569">Building agents that delete manual work.</text>
   <text x="80" y="268" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="12" letter-spacing=".4" fill="#7C8BA1">12 years  ·  React  ·  TypeScript  ·  agents that touch real systems</text>
 
   <g>
-    <circle cx="980" cy="160" r="92" fill="none" stroke="#E2E8F0" stroke-width="1"/>
-
-    <circle cx="980" cy="160" r="92" fill="none" stroke="#D97706" stroke-width="8" stroke-linecap="round" opacity=".16" stroke-dasharray="80 498">
-      <animate attributeName="stroke-dashoffset" from="0" to="-578" dur="6s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="980" cy="160" r="92" fill="none" stroke="#D97706" stroke-width="2" stroke-linecap="round" stroke-dasharray="80 498">
-      <animate attributeName="stroke-dashoffset" from="0" to="-578" dur="6s" repeatCount="indefinite"/>
-    </circle>
-
-    <circle cx="1072" cy="160" r="5" fill="#D97706" opacity=".25">
-      <animate attributeName="opacity" values=".25;1;.25;.25" keyTimes="0;.04;.24;1" dur="6s" begin="0s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="980" cy="252" r="5" fill="#D97706" opacity=".25">
-      <animate attributeName="opacity" values=".25;1;.25;.25" keyTimes="0;.04;.24;1" dur="6s" begin="1.5s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="888" cy="160" r="5" fill="#D97706" opacity=".25">
-      <animate attributeName="opacity" values=".25;1;.25;.25" keyTimes="0;.04;.24;1" dur="6s" begin="3s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="980" cy="68" r="5" fill="#D97706" opacity=".25">
-      <animate attributeName="opacity" values=".25;1;.25;.25" keyTimes="0;.04;.24;1" dur="6s" begin="4.5s" repeatCount="indefinite"/>
-    </circle>
+    <rect x="974.5" y="62.5" width="11" height="11" rx="2" fill="#EFF2F5">
+      <animate attributeName="fill" values="#EFF2F5;#116329;#2DA44E;#4AC26B;#ACEEBB;#EFF2F5" keyTimes="0;0.02;0.06;0.10;0.15;1" dur="6s" begin="0.000s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="992.0" y="65.4" width="8" height="8" rx="2" fill="#EFF2F5">
+      <animate attributeName="fill" values="#EFF2F5;#116329;#2DA44E;#4AC26B;#ACEEBB;#EFF2F5" keyTimes="0;0.02;0.06;0.10;0.15;1" dur="6s" begin="0.167s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="1007.5" y="69.5" width="8" height="8" rx="2" fill="#EFF2F5">
+      <animate attributeName="fill" values="#EFF2F5;#116329;#2DA44E;#4AC26B;#ACEEBB;#EFF2F5" keyTimes="0;0.02;0.06;0.10;0.15;1" dur="6s" begin="0.333s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="1022.0" y="76.3" width="8" height="8" rx="2" fill="#EFF2F5">
+      <animate attributeName="fill" values="#EFF2F5;#116329;#2DA44E;#4AC26B;#ACEEBB;#EFF2F5" keyTimes="0;0.02;0.06;0.10;0.15;1" dur="6s" begin="0.500s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="1035.1" y="85.5" width="8" height="8" rx="2" fill="#EFF2F5">
+      <animate attributeName="fill" values="#EFF2F5;#116329;#2DA44E;#4AC26B;#ACEEBB;#EFF2F5" keyTimes="0;0.02;0.06;0.10;0.15;1" dur="6s" begin="0.667s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="1046.5" y="96.9" width="8" height="8" rx="2" fill="#EFF2F5">
+      <animate attributeName="fill" values="#EFF2F5;#116329;#2DA44E;#4AC26B;#ACEEBB;#EFF2F5" keyTimes="0;0.02;0.06;0.10;0.15;1" dur="6s" begin="0.833s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="1055.7" y="110.0" width="8" height="8" rx="2" fill="#EFF2F5">
+      <animate attributeName="fill" values="#EFF2F5;#116329;#2DA44E;#4AC26B;#ACEEBB;#EFF2F5" keyTimes="0;0.02;0.06;0.10;0.15;1" dur="6s" begin="1.000s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="1062.5" y="124.5" width="8" height="8" rx="2" fill="#EFF2F5">
+      <animate attributeName="fill" values="#EFF2F5;#116329;#2DA44E;#4AC26B;#ACEEBB;#EFF2F5" keyTimes="0;0.02;0.06;0.10;0.15;1" dur="6s" begin="1.167s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="1066.6" y="140.0" width="8" height="8" rx="2" fill="#EFF2F5">
+      <animate attributeName="fill" values="#EFF2F5;#116329;#2DA44E;#4AC26B;#ACEEBB;#EFF2F5" keyTimes="0;0.02;0.06;0.10;0.15;1" dur="6s" begin="1.333s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="1066.5" y="154.5" width="11" height="11" rx="2" fill="#EFF2F5">
+      <animate attributeName="fill" values="#EFF2F5;#116329;#2DA44E;#4AC26B;#ACEEBB;#EFF2F5" keyTimes="0;0.02;0.06;0.10;0.15;1" dur="6s" begin="1.500s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="1066.6" y="172.0" width="8" height="8" rx="2" fill="#EFF2F5">
+      <animate attributeName="fill" values="#EFF2F5;#116329;#2DA44E;#4AC26B;#ACEEBB;#EFF2F5" keyTimes="0;0.02;0.06;0.10;0.15;1" dur="6s" begin="1.667s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="1062.5" y="187.5" width="8" height="8" rx="2" fill="#EFF2F5">
+      <animate attributeName="fill" values="#EFF2F5;#116329;#2DA44E;#4AC26B;#ACEEBB;#EFF2F5" keyTimes="0;0.02;0.06;0.10;0.15;1" dur="6s" begin="1.833s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="1055.7" y="202.0" width="8" height="8" rx="2" fill="#EFF2F5">
+      <animate attributeName="fill" values="#EFF2F5;#116329;#2DA44E;#4AC26B;#ACEEBB;#EFF2F5" keyTimes="0;0.02;0.06;0.10;0.15;1" dur="6s" begin="2.000s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="1046.5" y="215.1" width="8" height="8" rx="2" fill="#EFF2F5">
+      <animate attributeName="fill" values="#EFF2F5;#116329;#2DA44E;#4AC26B;#ACEEBB;#EFF2F5" keyTimes="0;0.02;0.06;0.10;0.15;1" dur="6s" begin="2.167s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="1035.1" y="226.5" width="8" height="8" rx="2" fill="#EFF2F5">
+      <animate attributeName="fill" values="#EFF2F5;#116329;#2DA44E;#4AC26B;#ACEEBB;#EFF2F5" keyTimes="0;0.02;0.06;0.10;0.15;1" dur="6s" begin="2.333s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="1022.0" y="235.7" width="8" height="8" rx="2" fill="#EFF2F5">
+      <animate attributeName="fill" values="#EFF2F5;#116329;#2DA44E;#4AC26B;#ACEEBB;#EFF2F5" keyTimes="0;0.02;0.06;0.10;0.15;1" dur="6s" begin="2.500s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="1007.5" y="242.5" width="8" height="8" rx="2" fill="#EFF2F5">
+      <animate attributeName="fill" values="#EFF2F5;#116329;#2DA44E;#4AC26B;#ACEEBB;#EFF2F5" keyTimes="0;0.02;0.06;0.10;0.15;1" dur="6s" begin="2.667s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="992.0" y="246.6" width="8" height="8" rx="2" fill="#EFF2F5">
+      <animate attributeName="fill" values="#EFF2F5;#116329;#2DA44E;#4AC26B;#ACEEBB;#EFF2F5" keyTimes="0;0.02;0.06;0.10;0.15;1" dur="6s" begin="2.833s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="974.5" y="246.5" width="11" height="11" rx="2" fill="#EFF2F5">
+      <animate attributeName="fill" values="#EFF2F5;#116329;#2DA44E;#4AC26B;#ACEEBB;#EFF2F5" keyTimes="0;0.02;0.06;0.10;0.15;1" dur="6s" begin="3.000s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="960.0" y="246.6" width="8" height="8" rx="2" fill="#EFF2F5">
+      <animate attributeName="fill" values="#EFF2F5;#116329;#2DA44E;#4AC26B;#ACEEBB;#EFF2F5" keyTimes="0;0.02;0.06;0.10;0.15;1" dur="6s" begin="3.167s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="944.5" y="242.5" width="8" height="8" rx="2" fill="#EFF2F5">
+      <animate attributeName="fill" values="#EFF2F5;#116329;#2DA44E;#4AC26B;#ACEEBB;#EFF2F5" keyTimes="0;0.02;0.06;0.10;0.15;1" dur="6s" begin="3.333s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="930.0" y="235.7" width="8" height="8" rx="2" fill="#EFF2F5">
+      <animate attributeName="fill" values="#EFF2F5;#116329;#2DA44E;#4AC26B;#ACEEBB;#EFF2F5" keyTimes="0;0.02;0.06;0.10;0.15;1" dur="6s" begin="3.500s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="916.9" y="226.5" width="8" height="8" rx="2" fill="#EFF2F5">
+      <animate attributeName="fill" values="#EFF2F5;#116329;#2DA44E;#4AC26B;#ACEEBB;#EFF2F5" keyTimes="0;0.02;0.06;0.10;0.15;1" dur="6s" begin="3.667s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="905.5" y="215.1" width="8" height="8" rx="2" fill="#EFF2F5">
+      <animate attributeName="fill" values="#EFF2F5;#116329;#2DA44E;#4AC26B;#ACEEBB;#EFF2F5" keyTimes="0;0.02;0.06;0.10;0.15;1" dur="6s" begin="3.833s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="896.3" y="202.0" width="8" height="8" rx="2" fill="#EFF2F5">
+      <animate attributeName="fill" values="#EFF2F5;#116329;#2DA44E;#4AC26B;#ACEEBB;#EFF2F5" keyTimes="0;0.02;0.06;0.10;0.15;1" dur="6s" begin="4.000s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="889.5" y="187.5" width="8" height="8" rx="2" fill="#EFF2F5">
+      <animate attributeName="fill" values="#EFF2F5;#116329;#2DA44E;#4AC26B;#ACEEBB;#EFF2F5" keyTimes="0;0.02;0.06;0.10;0.15;1" dur="6s" begin="4.167s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="885.4" y="172.0" width="8" height="8" rx="2" fill="#EFF2F5">
+      <animate attributeName="fill" values="#EFF2F5;#116329;#2DA44E;#4AC26B;#ACEEBB;#EFF2F5" keyTimes="0;0.02;0.06;0.10;0.15;1" dur="6s" begin="4.333s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="882.5" y="154.5" width="11" height="11" rx="2" fill="#EFF2F5">
+      <animate attributeName="fill" values="#EFF2F5;#116329;#2DA44E;#4AC26B;#ACEEBB;#EFF2F5" keyTimes="0;0.02;0.06;0.10;0.15;1" dur="6s" begin="4.500s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="885.4" y="140.0" width="8" height="8" rx="2" fill="#EFF2F5">
+      <animate attributeName="fill" values="#EFF2F5;#116329;#2DA44E;#4AC26B;#ACEEBB;#EFF2F5" keyTimes="0;0.02;0.06;0.10;0.15;1" dur="6s" begin="4.667s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="889.5" y="124.5" width="8" height="8" rx="2" fill="#EFF2F5">
+      <animate attributeName="fill" values="#EFF2F5;#116329;#2DA44E;#4AC26B;#ACEEBB;#EFF2F5" keyTimes="0;0.02;0.06;0.10;0.15;1" dur="6s" begin="4.833s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="896.3" y="110.0" width="8" height="8" rx="2" fill="#EFF2F5">
+      <animate attributeName="fill" values="#EFF2F5;#116329;#2DA44E;#4AC26B;#ACEEBB;#EFF2F5" keyTimes="0;0.02;0.06;0.10;0.15;1" dur="6s" begin="5.000s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="905.5" y="96.9" width="8" height="8" rx="2" fill="#EFF2F5">
+      <animate attributeName="fill" values="#EFF2F5;#116329;#2DA44E;#4AC26B;#ACEEBB;#EFF2F5" keyTimes="0;0.02;0.06;0.10;0.15;1" dur="6s" begin="5.167s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="916.9" y="85.5" width="8" height="8" rx="2" fill="#EFF2F5">
+      <animate attributeName="fill" values="#EFF2F5;#116329;#2DA44E;#4AC26B;#ACEEBB;#EFF2F5" keyTimes="0;0.02;0.06;0.10;0.15;1" dur="6s" begin="5.333s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="930.0" y="76.3" width="8" height="8" rx="2" fill="#EFF2F5">
+      <animate attributeName="fill" values="#EFF2F5;#116329;#2DA44E;#4AC26B;#ACEEBB;#EFF2F5" keyTimes="0;0.02;0.06;0.10;0.15;1" dur="6s" begin="5.500s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="944.5" y="69.5" width="8" height="8" rx="2" fill="#EFF2F5">
+      <animate attributeName="fill" values="#EFF2F5;#116329;#2DA44E;#4AC26B;#ACEEBB;#EFF2F5" keyTimes="0;0.02;0.06;0.10;0.15;1" dur="6s" begin="5.667s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="960.0" y="65.4" width="8" height="8" rx="2" fill="#EFF2F5">
+      <animate attributeName="fill" values="#EFF2F5;#116329;#2DA44E;#4AC26B;#ACEEBB;#EFF2F5" keyTimes="0;0.02;0.06;0.10;0.15;1" dur="6s" begin="5.833s" repeatCount="indefinite"/>
+    </rect>
 
     <g font-family="ui-monospace,Menlo,Consolas,monospace" font-size="9" letter-spacing="1.8" fill="#7C8BA1">
-      <text x="980" y="48" text-anchor="middle">OBSERVE</text>
-      <text x="1090" y="164" text-anchor="start">DECIDE</text>
-      <text x="980" y="277" text-anchor="middle">ACT</text>
-      <text x="870" y="164" text-anchor="end">VALIDATE</text>
+      <text x="980" y="42" text-anchor="middle">OBSERVE</text>
+      <text x="1094" y="164" text-anchor="start">DECIDE</text>
+      <text x="980" y="283" text-anchor="middle">ACT</text>
+      <text x="866" y="164" text-anchor="end">VALIDATE</text>
     </g>
 
     <g font-family="ui-monospace,Menlo,Consolas,monospace" font-size="10" letter-spacing="2.4" fill="#B8C2D0" text-anchor="middle">

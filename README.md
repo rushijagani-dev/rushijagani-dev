@@ -8,11 +8,11 @@
 
 <br><br>
 
-[![Follow](https://img.shields.io/github/followers/rushijagani-dev?style=flat-square&logo=github&label=Follow&labelColor=0B1220&color=D97706)](https://github.com/rushijagani-dev?tab=followers)
+[![Follow](https://img.shields.io/github/followers/rushijagani-dev?style=flat-square&logo=github&label=Follow&labelColor=0B1220&color=2EA043)](https://github.com/rushijagani-dev?tab=followers)
 &nbsp;
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-rushijagani-D97706?style=flat-square&logo=linkedin&logoColor=white&labelColor=0B1220)](https://www.linkedin.com/in/rushijagani/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-rushijagani-2EA043?style=flat-square&logo=linkedin&logoColor=white&labelColor=0B1220)](https://www.linkedin.com/in/rushijagani/)
 &nbsp;
-[![Email](https://img.shields.io/badge/Email-rushi.jagani.dev@gmail.com-D97706?style=flat-square&logo=gmail&logoColor=white&labelColor=0B1220)](mailto:rushi.jagani.dev@gmail.com)
+[![Email](https://img.shields.io/badge/Email-rushi.jagani.dev@gmail.com-2EA043?style=flat-square&logo=gmail&logoColor=white&labelColor=0B1220)](mailto:rushi.jagani.dev@gmail.com)
 
 </div>
 
@@ -96,17 +96,17 @@ Front-end for a real-time management console built on React and TypeScript — l
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=rushijagani-dev&layout=compact&hide_border=true&bg_color=00000000&title_color=F59E0B&text_color=8FA0B8&langs_count=8">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=rushijagani-dev&layout=compact&hide_border=true&bg_color=00000000&title_color=B45309&text_color=475569&langs_count=8">
-  <img alt="Most used languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rushijagani-dev&layout=compact&hide_border=true&bg_color=00000000&title_color=F59E0B&text_color=8FA0B8&langs_count=8">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=rushijagani-dev&layout=compact&hide_border=true&bg_color=00000000&title_color=3FB950&text_color=8FA0B8&langs_count=8">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=rushijagani-dev&layout=compact&hide_border=true&bg_color=00000000&title_color=1A7F37&text_color=475569&langs_count=8">
+  <img alt="Most used languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rushijagani-dev&layout=compact&hide_border=true&bg_color=00000000&title_color=3FB950&text_color=8FA0B8&langs_count=8">
 </picture>
 
 <br><br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=rushijagani-dev&hide_border=true&area=true&bg_color=00000000&color=8FA0B8&line=F59E0B&point=F59E0B&title_color=F59E0B">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=rushijagani-dev&hide_border=true&area=true&bg_color=00000000&color=475569&line=B45309&point=B45309&title_color=B45309">
-  <img alt="Contribution activity over time" src="https://github-readme-activity-graph.vercel.app/graph?username=rushijagani-dev&hide_border=true&area=true&bg_color=00000000&color=8FA0B8&line=F59E0B&point=F59E0B&title_color=F59E0B">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=rushijagani-dev&hide_border=true&area=true&bg_color=00000000&color=8FA0B8&line=3FB950&point=3FB950&title_color=3FB950">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=rushijagani-dev&hide_border=true&area=true&bg_color=00000000&color=475569&line=1A7F37&point=1A7F37&title_color=1A7F37">
+  <img alt="Contribution activity over time" src="https://github-readme-activity-graph.vercel.app/graph?username=rushijagani-dev&hide_border=true&area=true&bg_color=00000000&color=8FA0B8&line=3FB950&point=3FB950&title_color=3FB950">
 </picture>
 
 </div>
