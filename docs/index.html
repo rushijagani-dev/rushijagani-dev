@@ -375,6 +375,9 @@
       ctx.fill();
     }
 
+    // may be called before the first reset(), while sizing the canvas
+    if (!snake) return;
+
     // body shades from brightest at the head to faintest at the tail,
     // mirroring the contribution scale
     var shades = [palette.l4, palette.l3, palette.l2, palette.l1];
@@ -454,6 +457,7 @@
   window.addEventListener("resize", fitCanvas);
 
   readPalette();
+  reset();      // must precede any draw(): fitCanvas() paints immediately
   fitCanvas();
   toReady();
 })();

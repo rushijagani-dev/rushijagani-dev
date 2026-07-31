@@ -6,10 +6,12 @@ observe -> decide -> act -> validate."""
 import math
 import sys
 
-CX, CY, R = 980, 160, 92
-N = 36                 # cells around the ring
+# A narrower canvas means GitHub scales it down less, so the type survives.
+WIDTH, HEIGHT = 1040, 300
+CX, CY, R = 860, 150, 82
+N = 32                 # cells around the ring
 DUR = 6.0              # seconds per full rotation
-CARDINALS = {0: "OBSERVE", 9: "DECIDE", 18: "ACT", 27: "VALIDATE"}
+CARDINALS = {0: "OBSERVE", 8: "DECIDE", 16: "ACT", 24: "VALIDATE"}
 
 THEMES = {
     "dark": dict(
@@ -41,10 +43,10 @@ def build(theme_name, preview_head=None):
     out = []
 
     out.append(
-        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" '
-        'width="1200" height="320" role="img" '
-        'aria-label="Rushi Jagani, senior front-end engineer building agents '
-        'that delete manual work">'
+        f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {WIDTH} {HEIGHT}" '
+        f'width="{WIDTH}" height="{HEIGHT}" role="img" '
+        'aria-label="Rushi Jagani, senior engineer working on AI agents, '
+        'building agents that delete manual work">'
     )
     out.append("  <defs>")
     out.append(f'    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">')
@@ -61,18 +63,18 @@ def build(theme_name, preview_head=None):
     out.append("    </linearGradient>")
     out.append("  </defs>")
     out.append("")
-    out.append(f'  <rect width="1200" height="320" fill="{t["bg"]}"/>')
-    out.append('  <rect width="1200" height="320" fill="url(#grid)" opacity=".5"/>')
-    out.append('  <rect width="1200" height="320" fill="url(#vig)"/>')
+    out.append(f'  <rect width="{WIDTH}" height="{HEIGHT}" fill="{t["bg"]}"/>')
+    out.append(f'  <rect width="{WIDTH}" height="{HEIGHT}" fill="url(#grid)" opacity=".5"/>')
+    out.append(f'  <rect width="{WIDTH}" height="{HEIGHT}" fill="url(#vig)"/>')
     out.append("")
 
     mono = "ui-monospace,Menlo,Consolas,monospace"
     sans = "system-ui,-apple-system,Helvetica,Arial,sans-serif"
-    out.append(f'  <text x="80" y="112" font-family="{mono}" font-size="11" letter-spacing="3.2" fill="{t["accent"]}">SENIOR FRONT-END ENGINEER</text>')
-    out.append(f'  <text x="80" y="178" font-family="{sans}" font-size="56" font-weight="700" letter-spacing="-1" fill="{t["name"]}">Rushi Jagani</text>')
-    out.append('  <rect x="80" y="202" width="160" height="2" fill="url(#rule)"/>')
-    out.append(f'  <text x="80" y="240" font-family="{sans}" font-size="18" fill="{t["tagline"]}">Building agents that delete manual work.</text>')
-    out.append(f'  <text x="80" y="268" font-family="{mono}" font-size="12" letter-spacing=".4" fill="{t["sub"]}">12 years  ·  React  ·  TypeScript  ·  agents that touch real systems</text>')
+    out.append(f'  <text x="64" y="92" font-family="{mono}" font-size="15" letter-spacing="4" fill="{t["accent"]}">SENIOR ENGINEER  ·  AI AGENTS</text>')
+    out.append(f'  <text x="64" y="162" font-family="{sans}" font-size="68" font-weight="700" letter-spacing="-1.4" fill="{t["name"]}">Rushi Jagani</text>')
+    out.append('  <rect x="64" y="188" width="180" height="3" fill="url(#rule)"/>')
+    out.append(f'  <text x="64" y="226" font-family="{sans}" font-size="22" fill="{t["tagline"]}">Building agents that delete manual work.</text>')
+    out.append(f'  <text x="64" y="258" font-family="{mono}" font-size="15" letter-spacing=".4" fill="{t["sub"]}">12 years  ·  React  ·  TypeScript  ·  AI agents in production</text>')
     out.append("")
 
     # --- the loop: a ring of contribution cells ---
@@ -83,7 +85,7 @@ def build(theme_name, preview_head=None):
 
     for i in range(N):
         x, y = cell_xy(i)
-        size = 11 if i in CARDINALS else 8
+        size = 12 if i in CARDINALS else 9
         rx = x - size / 2.0
         ry = y - size / 2.0
 
@@ -102,16 +104,16 @@ def build(theme_name, preview_head=None):
         out.append("    </rect>")
 
     out.append("")
-    out.append(f'    <g font-family="{mono}" font-size="9" letter-spacing="1.8" fill="{t["label"]}">')
-    out.append('      <text x="980" y="42" text-anchor="middle">OBSERVE</text>')
-    out.append('      <text x="1094" y="164" text-anchor="start">DECIDE</text>')
-    out.append('      <text x="980" y="283" text-anchor="middle">ACT</text>')
-    out.append('      <text x="866" y="164" text-anchor="end">VALIDATE</text>')
+    out.append(f'    <g font-family="{mono}" font-size="12" letter-spacing="2" fill="{t["label"]}">')
+    out.append('      <text x="860" y="46" text-anchor="middle">OBSERVE</text>')
+    out.append('      <text x="962" y="155" text-anchor="start">DECIDE</text>')
+    out.append('      <text x="860" y="264" text-anchor="middle">ACT</text>')
+    out.append('      <text x="758" y="155" text-anchor="end">VALIDATE</text>')
     out.append("    </g>")
     out.append("")
-    out.append(f'    <g font-family="{mono}" font-size="10" letter-spacing="2.4" fill="{t["center"]}" text-anchor="middle">')
-    out.append('      <text x="980" y="156">AGENT</text>')
-    out.append('      <text x="980" y="174">LOOP</text>')
+    out.append(f'    <g font-family="{mono}" font-size="12" letter-spacing="2.6" fill="{t["center"]}" text-anchor="middle">')
+    out.append('      <text x="860" y="144">AGENT</text>')
+    out.append('      <text x="860" y="166">LOOP</text>')
     out.append("    </g>")
     out.append("  </g>")
     out.append("</svg>")
