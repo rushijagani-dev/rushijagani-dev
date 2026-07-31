@@ -25,11 +25,12 @@ jobs:
         id: snake
         with:
           github_user_name: ${{ github.repository_owner }}
-          # snk's default snake is purple; force it to GitHub green so the
-          # snake matches the cells it is eating
+          # snk's default snake is purple; pin it to the top of each palette's
+          # contribution scale so the snake matches the cells it eats.
+          # The hex must be literal - percent-encoded %23 is not decoded.
           outputs: |
-            dist/github-snake.svg?palette=github-light&color_snake=%23116329
-            dist/github-snake-dark.svg?palette=github-dark&color_snake=%2356d364
+            dist/github-snake.svg?palette=github-light&color_snake=#216e39
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=#00c647
 
       - name: Publish to the output branch
         uses: crazy-max/ghaction-github-pages@v4
