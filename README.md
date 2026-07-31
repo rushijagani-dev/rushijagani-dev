@@ -96,14 +96,6 @@ Front-end for a real-time management console built on React and TypeScript — l
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=rushijagani-dev&layout=compact&hide_border=true&bg_color=00000000&title_color=3FB950&text_color=8FA0B8&langs_count=8">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=rushijagani-dev&layout=compact&hide_border=true&bg_color=00000000&title_color=1A7F37&text_color=475569&langs_count=8">
-  <img alt="Most used languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rushijagani-dev&layout=compact&hide_border=true&bg_color=00000000&title_color=3FB950&text_color=8FA0B8&langs_count=8">
-</picture>
-
-<br><br>
-
-<picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=rushijagani-dev&hide_border=true&area=true&bg_color=00000000&color=8FA0B8&line=3FB950&point=3FB950&title_color=3FB950">
   <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=rushijagani-dev&hide_border=true&area=true&bg_color=00000000&color=475569&line=1A7F37&point=1A7F37&title_color=1A7F37">
   <img alt="Contribution activity over time" src="https://github-readme-activity-graph.vercel.app/graph?username=rushijagani-dev&hide_border=true&area=true&bg_color=00000000&color=8FA0B8&line=3FB950&point=3FB950&title_color=3FB950">
@@ -145,6 +137,6 @@ Something has been eating my contribution graph.
 
 <br>
 
-<sub>Brand marks from <a href="https://simpleicons.org">Simple Icons</a> (CC0-1.0) · contribution snake by <a href="https://github.com/Platane/snk">Platane/snk</a> (MIT) · stat cards by <a href="https://github.com/anuraghazra/github-readme-stats">github-readme-stats</a> (MIT). Logos are trademarks of their respective owners.</sub>
+<sub>Brand marks from <a href="https://simpleicons.org">Simple Icons</a> (CC0-1.0) · contribution snake by <a href="https://github.com/Platane/snk">Platane/snk</a> (MIT) · activity graph by <a href="https://github.com/Ashutosh00710/github-readme-activity-graph">github-readme-activity-graph</a> (MIT). Logos are trademarks of their respective owners.</sub>
 
 </div>
